@@ -20,8 +20,22 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    AdWhirlView *adWhirlView = [AdWhirlView requestAdWhirlViewWithDelegate:self];
+//    [self.window addSubview:adWhirlView];
+
     return YES;
 }
+
+- (NSString *)adWhirlApplicationKey {
+    return @"_MY_AD_WHIRL_APPLICATION_KEY";
+}
+
+//- (UIViewController *)viewControllerForPresentingModalView {
+//    return self.viewController;
+//}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

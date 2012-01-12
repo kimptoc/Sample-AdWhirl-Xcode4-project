@@ -10,7 +10,7 @@
 
 #import "AdWhirl/AdWhirlDelegateProtocol.h"
 
-@interface testerAppDelegate : UIResponder <UIApplicationDelegate>
+@interface testerAppDelegate : UIResponder <UIApplicationDelegate, AdWhirlDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
