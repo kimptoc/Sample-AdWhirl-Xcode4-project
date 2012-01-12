@@ -20,8 +20,8 @@
 
 #import <UIKit/UIKit.h>
 #import "AdWhirlDelegateProtocol.h"
-#import "AWNetworkReachabilityWrapper.h"
-#import "AdWhirlConfig.h"
+#import "internal/AWNetworkReachabilityWrapper.h"
+#import "internal/AdWhirlConfig.h"
 
 #define kAdWhirlAppVer 310
 
