@@ -43,7 +43,7 @@ NSInteger adNetworkPriorityComparer(id a, id b, void *ctx) {
 }
 
 
-@implementation AdWhirlView
+@implem entation AdWhirl View
 
 #pragma mark Properties getters/setters
 
