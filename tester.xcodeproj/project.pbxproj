@@ -13,6 +13,8 @@
 		110EF4E314BE42D8009A7A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 110EF4E114BE42D8009A7A97 /* InfoPlist.strings */; };
 		110EF4E514BE42D8009A7A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110EF4E414BE42D8009A7A97 /* main.m */; };
 		110EF4E914BE42D8009A7A97 /* testerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 110EF4E814BE42D8009A7A97 /* testerAppDelegate.m */; };
+		110EF4F114BE4336009A7A97 /* AdWhirl in Resources */ = {isa = PBXBuildFile; fileRef = 110EF4EF14BE4336009A7A97 /* AdWhirl */; };
+		110EF4F214BE4336009A7A97 /* TouchJSON in Resources */ = {isa = PBXBuildFile; fileRef = 110EF4F014BE4336009A7A97 /* TouchJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,14 @@
 		110EF4D814BE42D8009A7A97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		110EF4DA14BE42D8009A7A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		110EF4DC14BE42D8009A7A97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		110EF4E014BE42D8009A7A97 /* tester-Info.plist */ = {isa = PBXFileReference; path = "tester-Info.plist"; sourceTree = "<group>"; };
+		110EF4E014BE42D8009A7A97 /* tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tester-Info.plist"; sourceTree = "<group>"; };
 		110EF4E214BE42D8009A7A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		110EF4E414BE42D8009A7A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		110EF4E614BE42D8009A7A97 /* tester-Prefix.pch */ = {isa = PBXFileReference; path = "tester-Prefix.pch"; sourceTree = "<group>"; };
-		110EF4E714BE42D8009A7A97 /* testerAppDelegate.h */ = {isa = PBXFileReference; path = testerAppDelegate.h; sourceTree = "<group>"; };
+		110EF4E614BE42D8009A7A97 /* tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tester-Prefix.pch"; sourceTree = "<group>"; };
+		110EF4E714BE42D8009A7A97 /* testerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testerAppDelegate.h; sourceTree = "<group>"; };
 		110EF4E814BE42D8009A7A97 /* testerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testerAppDelegate.m; sourceTree = "<group>"; };
+		110EF4EF14BE4336009A7A97 /* AdWhirl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AdWhirl; path = tester/AdWhirl; sourceTree = "<group>"; };
+		110EF4F014BE4336009A7A97 /* TouchJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TouchJSON; path = tester/TouchJSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 		110EF4C914BE42D7009A7A97 = {
 			isa = PBXGroup;
 			children = (
+				110EF4EF14BE4336009A7A97 /* AdWhirl */,
+				110EF4F014BE4336009A7A97 /* TouchJSON */,
 				110EF4DE14BE42D8009A7A97 /* tester */,
 				110EF4D714BE42D8009A7A97 /* Frameworks */,
 				110EF4D514BE42D8009A7A97 /* Products */,
@@ -141,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				110EF4E314BE42D8009A7A97 /* InfoPlist.strings in Resources */,
+				110EF4F114BE4336009A7A97 /* AdWhirl in Resources */,
+				110EF4F214BE4336009A7A97 /* TouchJSON in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

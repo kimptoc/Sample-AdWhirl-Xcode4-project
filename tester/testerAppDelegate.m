@@ -8,6 +8,8 @@
 
 #import "testerAppDelegate.h"
 
+#import "AdWhirl/AdWhirlView.h"
+
 @implementation testerAppDelegate
 
 @synthesize window = _window;

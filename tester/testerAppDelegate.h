@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "AdWhirl/AdWhirlDelegateProtocol.h"
+
 @interface testerAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
